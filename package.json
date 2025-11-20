@@ -1,9 +1,13 @@
 {
-  "name": "ui-library",
+  "name": "nabu-ui-library",
   "version": "0.1.0",
   "main": "dist/index.js",
   "type": "module",
   "types": "dist/index.d.ts",
+  "author": "Nabraj Chaudhary",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
   "peerDependencies": {
     "next": "16.0.3",
     "react": "19.2.0",
