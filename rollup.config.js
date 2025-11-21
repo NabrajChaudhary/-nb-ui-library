@@ -6,7 +6,7 @@ export default defineConfig({
   output: {
     dir: "dist",
     format: "es",
-    name: "@nb-ui-library",
+    name: "@nb/ui-library",
   },
   external: [
     "react",
